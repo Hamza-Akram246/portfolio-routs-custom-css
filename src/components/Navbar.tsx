@@ -17,11 +17,11 @@ const Navbar = () => {
             <div className='navbar-brand'> Hamza Akram</div>
             {/* large screen nacbar link */}
             <ul className={`navbar-links ${isMenuOpen ? 'open' : ''}`}>
-                <li className='navbarlink'><a href='#hero'>Home</a></li>
-                <li className='navbarlink'><a href='#about'>About</a></li>
-                <li className='navbarlink'><a href='#projects'>Projects</a></li>
-                <li className='navbarlink'><a href='#skills'>Skills</a></li>
-                <li className='navbarlink'><a href='#contact'>Contact</a></li>
+                <li className='navbarlink'><a href='hero'>Home</a></li>
+                <li className='navbarlink'><a href='about'>About</a></li>
+                <li className='navbarlink'><a href='projects'>Projects</a></li>
+                <li className='navbarlink'><a href='skills'>Skills</a></li>
+                <li className='navbarlink'><a href='contact'>Contact</a></li>
              </ul>
 
              {/* humberger menu icon */}
